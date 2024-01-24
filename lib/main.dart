@@ -31,9 +31,9 @@ import 'screens/chat/chat_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  await FirebaseAppCheck.instance.activate(
-    webRecaptchaSiteKey: 'recaptcha-v3-site-key',
-  );
+  // await FirebaseAppCheck.instance.activate(
+  //   webRecaptchaSiteKey: 'recaptcha-v3-site-key',
+  // );
   runApp(
     MultiProvider(
       providers: [

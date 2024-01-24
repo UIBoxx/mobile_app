@@ -223,7 +223,7 @@ class _BottomLocationPermissionWidgetState
                           vertical: 10, horizontal: 20),
                       child: CSCPicker(
                         layout: Layout.vertical,
-                        defaultCountry: DefaultCountry.India,
+                        defaultCountry: CscCountry.India,
                         flagState: CountryFlag.DISABLE,
                         dropdownDecoration:
                             const BoxDecoration(shape: BoxShape.rectangle),
